@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #eee;
+  display: flex;
+  padding: 0;
+  margin: 15px;
+  font-family: sans-serif;
+}
+
+.body__wrapper {
+  box-shadow: 2px 2px 4px #999999;
+  background: #fff;
+  padding: 0 15px 15px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+
+.content__navigation {
+  width: 25%;
+}
+
+.content__page {
+  flex: 1;
+}
+
+

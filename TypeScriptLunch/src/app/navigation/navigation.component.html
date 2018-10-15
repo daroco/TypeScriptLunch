@@ -1,0 +1,10 @@
+<ul class="navigation">
+  <li *ngFor="let page of pages">
+    <a href="{{page.url}}">{{page.title}}</a>
+    <ul *ngIf="page.children && page.children.length > 0">
+      <li *ngFor="let child of page.children">
+        <a href="{{child.url}}">{{child.title}}</a>
+      </li>
+    </ul>
+  </li>
+</ul>
