@@ -25,7 +25,21 @@ export class NavigationComponent implements OnInit {
       new NavigationPage({
         title: 'What is TypeScript',
         url: '/what-is-typescript',
+      }),
+      new NavigationPage({
+        title: 'Setting up TypeScript',
+        url: '/setting-up-typescript',
+      }),
+      new NavigationPage({
+        title: 'How TypeScript works',
+        url: '/how-typescript-works',
+      }),
+      new NavigationPage({
+        title: 'Examples',
+        url: '/examples',
       })
+
+    
     );
 
   }

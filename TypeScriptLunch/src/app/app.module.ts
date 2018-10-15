@@ -7,6 +7,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AppRoutingModule } from './app-routing.module';
 import { WhatIsJavascriptComponent } from './what-is-javascript/what-is-javascript.component';
 import { WhatIsTypescriptComponent } from './what-is-typescript/what-is-typescript.component';
+import { HowTypescriptWorksComponent } from './how-typescript-works/how-typescript-works.component';
+import { SettingUpTypescriptComponent } from './setting-up-typescript/setting-up-typescript.component';
+import { ExamplesComponent } from './examples/examples.component';
 
 const appRoutes: Routes = [
   {
@@ -16,6 +19,18 @@ const appRoutes: Routes = [
   {
     path: 'what-is-typescript',
     component: WhatIsTypescriptComponent
+  },
+  {
+    path: 'how-typescript-works',
+    component: HowTypescriptWorksComponent
+  },
+  {
+    path: 'setting-up-typescript',
+    component: SettingUpTypescriptComponent
+  },
+  {
+    path: 'examples',
+    component: ExamplesComponent
   },
   {
     path: '',
@@ -30,7 +45,10 @@ const appRoutes: Routes = [
     AppComponent,
     NavigationComponent,
     WhatIsJavascriptComponent,
-    WhatIsTypescriptComponent
+    WhatIsTypescriptComponent,
+    HowTypescriptWorksComponent,
+    SettingUpTypescriptComponent,
+    ExamplesComponent
   ],
   imports: [
     BrowserModule,

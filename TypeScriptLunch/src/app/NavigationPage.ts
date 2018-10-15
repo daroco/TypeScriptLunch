@@ -3,7 +3,7 @@ import INavigationPage from './InavigationPage'
 export default class NavigationPage implements INavigationPage {
   title: string;
   url: string;
-  order: number;
+  order?: number;
   children?: Array<INavigationPage>;
 
   constructor(data: INavigationPage) {
